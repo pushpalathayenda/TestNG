@@ -1,0 +1,8 @@
+com\testing\Pages\Calculatortestpage.class
+com\testing\Pages\LoginPage.class
+com\testing\Tests\HomeTest.class
+com\testing\Tests\CalculatorTestcase.class
+com\testing\Pages\HomePage.class
+com\testing\Tests\SwitchtoTestcase.class
+com\testing\Tests\LoginTest.class
+com\testing\Pages\Switchtopage.class

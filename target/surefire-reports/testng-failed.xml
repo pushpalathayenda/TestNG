@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="TestNG(failed)">
+    <classes>
+      <class name="com.testing.Tests.CalculatorTestcase">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginintoApplication"/>
+        </methods>
+      </class> <!-- com.testing.Tests.CalculatorTestcase -->
+      <class name="com.testing.Tests.SwitchtoTestcase">
+        <methods>
+          <include name="Switchtotabtestcase"/>
+          <include name="loginapplication"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testing.Tests.SwitchtoTestcase -->
+      <class name="com.testing.Tests.HomeTest">
+        <methods>
+          <include name="launch"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testing.Tests.HomeTest -->
+      <class name="com.testing.Tests.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.testing.Tests.LoginTest -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [My Test Suite] -->
